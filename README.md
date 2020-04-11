@@ -2,6 +2,7 @@ Solutions to end-of-chapter exercises from the third edition of "Eloquent Javasc
 
 Naming convention: 
 
-XX-YY.js
+XX-YY-ZZ.js
 XX - Chapter Number
 YY - Problem Number
+ZZ - Problem Title
