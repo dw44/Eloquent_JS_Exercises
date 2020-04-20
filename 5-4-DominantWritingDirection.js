@@ -61,6 +61,7 @@ const dominantDirection = function(text) {
     return dominant;
 }
 
+// ----- TESTS -----
 
 console.log(dominantDirection("Hello!"));
 // → ltr

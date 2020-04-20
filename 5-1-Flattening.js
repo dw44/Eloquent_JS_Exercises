@@ -7,6 +7,8 @@ const flatten = function(arrayOfArrays) {
     return arrayOfArrays.reduce(((a,b) => a.concat(b)), []);
 }
 
+// ----- TESTS -----
+
 let arrays = [[1, 2, 3], [4, 5], [6], [5,4,3], [2,1]];
 console.log(flatten(arrays));
 // → [1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1]

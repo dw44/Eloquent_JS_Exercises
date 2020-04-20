@@ -27,6 +27,9 @@ const countChar = function(str, char) {
     }
     return charCount;
 }
+
+// ----- TESTS -----
+
 console.log(countBs("BBC"));
 // → 2
 console.log(countChar("kakkerlak", "k"));

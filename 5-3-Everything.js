@@ -18,6 +18,8 @@ const everySome = function(array, test) {
     return !array.some(n => test(n) === false);
 }
 
+// ----- TESTS -----
+
 console.log(everySome([1, 3, 5], n => n < 10));
 // → true
 console.log(everySome([2, 4, 16], n => n < 10));

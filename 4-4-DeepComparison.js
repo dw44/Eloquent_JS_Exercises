@@ -57,6 +57,8 @@ const deepEqual = function(first, second) {
     return true;
 }
 
+// ----- TESTS -----
+
 let obj = {here: {is: "an"}, object: 2};
 console.log(deepEqual(obj, obj));
 // → true

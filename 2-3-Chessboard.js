@@ -29,4 +29,6 @@ for (let i = 0; i < size; ++i) {
     board += '\n';
 }
 
+// ----- TESTS -----
+
 console.log(board);

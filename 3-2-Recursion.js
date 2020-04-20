@@ -22,6 +22,8 @@ const isEven = function(n) {
     else return isEven(n-2);
 }
 
+// ----- TESTS -----
+
 console.log(isEven(50));
 console.log(isEven(75));
 console.log(isEven(-1));
